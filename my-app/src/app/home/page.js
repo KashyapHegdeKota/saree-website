@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Navbar from "../components/Navbar";
 import Link from "next/link";
+import { redirect } from "next/navigation";
 
 // --------------------------------------------------
 // Data (add more products by following the same shape)
@@ -133,11 +134,31 @@ const products = [
     title: "Ajrakh Printed Sarees",
     variants: [
       {
+        sku: "7-brown",
+        colorName: "Brown",
+        colorHex: "#8B4513",
+        price: 90.0,
+        image: "/sarees/7-gold.jpg",
+      },
+      {
         sku: "7-blue",
         colorName: "Blue",
         colorHex: "#0000ff",
-        price: 90.0,
-        image: "/sarees/7-gold.jpg",
+        price: 210.0,
+        image: "/sarees/7-blue.jpg",
+      },
+    ],
+  },
+  {
+    id: 8,
+    title: "Pure Silk Saree",
+    variants: [
+      {
+        sku: "8-pink",
+        colorName: "Pink and Blue.",
+        colorHex: "#ff69b4",
+        price: 280.0,
+        image: "/sarees/8-pink.jpg",
       },
     ],
   },
@@ -231,7 +252,7 @@ const ProductCard = ({ product, onAdd }) => {
 const HomePage = () => {
   const handleAddToCart = (productId, sku) => {
     // TODO: wire to your cart store or API
-    console.log("Add to cart:", { productId, sku });
+    redirect("/contact");
   };
 
   return (
