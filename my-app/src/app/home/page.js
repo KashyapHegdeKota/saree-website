@@ -137,7 +137,7 @@ const products = [
         sku: "7-brown",
         colorName: "Brown",
         colorHex: "#8B4513",
-        price: 90.0,
+        price: 210.0,
         image: "/sarees/7-gold.jpg",
       },
       {
