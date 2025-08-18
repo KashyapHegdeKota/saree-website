@@ -16,7 +16,7 @@ const products = [
         sku: "1-pink",
         colorName: "Pink",
         colorHex: "#c42c4c",
-        price: 425.0,
+        price: 275.0,
         image: "/sarees/1-pink.jpg",
       },
       {
