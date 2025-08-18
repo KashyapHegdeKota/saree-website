@@ -16,14 +16,14 @@ const products = [
         sku: "1-pink",
         colorName: "Pink",
         colorHex: "#c42c4c",
-        price: 275.0,
+        price: 425.0,
         image: "/sarees/1-pink.jpg",
       },
       {
         sku: "1-teal",
         colorName: "Teal",
         colorHex: "#047773",
-        price: 425.0,
+        price: 275.0,
         image: "/sarees/1-teal.jpg",
       },
       {
