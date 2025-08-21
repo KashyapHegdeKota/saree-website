@@ -162,6 +162,32 @@ const products = [
       },
     ],
   },
+  {
+    id: 9,
+    title: "Pochampally Blouse Pieces",
+    variants: [
+      {
+        sku: "9-pink",
+        colorName: "Pink",
+        colorHex: "#ff69b4",
+        price: 12.0,
+        image: "/sarees/9-pink.jpg",
+      },
+    ],
+  },
+  {
+    id: 10,
+    title: "Kantha Work Blouses",
+    variants: [
+      {
+        sku: "10-red",
+        colorName: "Red",
+        colorHex: "#ff0000",
+        price: 10.0,
+        image: "/sarees/10-red.jpg",
+      },
+    ],
+  },
 ];
 
 const ColorSwatches = ({ variants, selectedSku, onSelect }) => (
